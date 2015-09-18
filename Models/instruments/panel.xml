@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>panel</object-name>
+
+    <!-- Objets transparents -->
+  </animation>
+
+  <!-- ALTIMETER -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/alt/alt.xml</path>
+    <offsets>
+      <x-m>  0.568 </x-m>
+      <y-m>  0.2165 </y-m>
+      <z-m>  0.494 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- TURN -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/turn/turn.xml</path>
+    <offsets>
+      <x-m> 0.567 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.483 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- FUEL SELECTOR -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/fuelselector/fuelselector.xml</path>
+    <offsets>
+      <x-m> 0.59 </x-m>
+      <y-m> -0.070 </y-m>
+      <z-m> 0.16 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- PUMP SELECTOR -->
+  <!-- <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/pump/pump.xml</path>
+    <offsets>
+      <x-m> 0.000 </x-m>
+      <y-m> 0.370 </y-m>
+      <z-m> 0.040 </z-m>
+    </offsets>
+  </model> -->
+  
+  <!-- DIVERS -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/divers/divers.xml</path>
+    <offsets>
+      <x-m> 0.59 </x-m>
+      <y-m> 0.230 </y-m>
+      <z-m> 0.137 </z-m>
+    </offsets>
+  </model>
+
+     <!-- RPM -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/RPM/tach.xml</path>
+    <offsets>
+      <x-m>  0.612 </x-m>
+      <y-m>  -0.273 </y-m>
+      <z-m>  0.389 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 18.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- Wing Compass -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/compass/wingcompass.xml</path>
+    <offsets>
+      <x-m>  -0.4643 </x-m>
+      <y-m>  -1.01681 </y-m>
+      <z-m>  -0.4194 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+  
+    <!-- Compass -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.9315 </x-m>
+      <y-m>  -0.283 </y-m>
+      <z-m>   0.16505 </z-m>
+      <roll-deg>    0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Aviatik-CI/Models/instruments/ASI/asi.xml</path>
+    <offsets>
+      <x-m>  0.579 </x-m>
+      <y-m>  -0.2165 </y-m>
+      <z-m>  0.494 </z-m>
+      <roll-deg>      0.000 </roll-deg>
+      <pitch-deg>   0.000 </pitch-deg>
+      <heading-deg> 0.000 </heading-deg>
+    </offsets>
+  </model>
+  
+</PropertyList>
